@@ -9,7 +9,9 @@ PyTorch Implementation of [Mixed Attention Network for Hyperspectral Image Denoi
 
 ## Usage
 
-- Use our model.
+Download the pretrained model at [Github Release](https://github.com/Zeqiang-Lai/MAN/releases/latest).
+
+- Use our model. 
 
 ```python
 import torch
