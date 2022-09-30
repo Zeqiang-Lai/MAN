@@ -112,7 +112,6 @@ class MAB(nn.Module):
         return h_
 
     def forward(self, inputs):
-        print(self.reverse)
         h = None
         Z = self.ffn_f(inputs).tanh()
         F = self.ffn_w(inputs).sigmoid()
