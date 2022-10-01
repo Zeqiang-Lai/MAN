@@ -4,7 +4,7 @@
 
 PyTorch Implementation of [Mixed Attention Network for Hyperspectral Image Denoising]()
 
-<img src="asset/arch.png" height="190px"/> 
+<img src="asset/arch.png" width="550px"/> 
 
 <br/>
 
@@ -61,12 +61,12 @@ out = block(x) # [4,16,31,64,64]
 
 <details>
 <summary>Gaussian denoising</summary>
-<img src="asset/gaussian.png" height="190px"/> 
+<img src="asset/gaussian.png" width="800px"/> 
 </details>
 
 <details>
 <summary>Complex denoising</summary>
-<img src="asset/complex.png" height="190px"/> 
+<img src="asset/complex.png" width="800px"/> 
 
 </details>
 
