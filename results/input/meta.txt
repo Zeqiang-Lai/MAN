@@ -1,0 +1,3 @@
+2022-10-01-11:17:44
+python /media/exthdd/laizeqiang/lzq/projects/denoise_hsi/HSIR/hsirun/test.py -a input -t icvl_512_30 icvl_512_50 icvl_512_70 icvl_512_blind icvl_512_noniid icvl_512_stripe icvl_512_deadline icvl_512_impulse icvl_512_mixture
+Namespace(arch='input', bandwise=False, basedir='data', clamp=False, force_run=False, key_path='net', logdir='results', name=None, resume=None, save_img=False, testset=['icvl_512_30', 'icvl_512_50', 'icvl_512_70', 'icvl_512_blind', 'icvl_512_noniid', 'icvl_512_stripe', 'icvl_512_deadline', 'icvl_512_impulse', 'icvl_512_mixture'], use_conv2d=False)

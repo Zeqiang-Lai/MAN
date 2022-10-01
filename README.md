@@ -17,14 +17,15 @@ PyTorch Implementation of [Mixed Attention Network for Hyperspectral Image Denoi
 
 Download the pretrained model at [Github Release](https://github.com/Zeqiang-Lai/MAN/releases/latest).
 
-- Training and Testing with [HSIR](https://github.com/bit-isp/HSIR).
+- Training, testing, and visualize results with [HSIR](https://github.com/bit-isp/HSIR).
 
 ```shell
 python -m hsirun.test -a mans.man -r ckpt/man_gaussian.pth -t icvl_512_30 icvl_512_50
 python -m hsirun.train -a mans.man 
+python -m hsiboard.app --logdir results
 ```
 
-- Use our model.
+- Using our model.
 
 ```python
 import torch
@@ -35,7 +36,7 @@ x = torch.randn(4,1,31,64,64)
 y = net(x)
 ```
 
-- Use our components.
+- Using our components.
 
 ```python
 import torch
