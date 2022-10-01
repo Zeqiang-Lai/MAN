@@ -1,17 +1,30 @@
+
+
 # MAN
 
 PyTorch Implementation of [Mixed Attention Network for Hyperspectral Image Denoising]()
 
-🌟 Hightlights
+<img src="asset/arch.png" height="190px"/> 
 
-- We propose a new adaptive skip connection which weights different features elementwise.
+<br/>
+
+🌟 **Hightlights**
+
+- We propose a new adaptive skip connection which weights en-decoder features elementwise.
 - We propose a lightweight mixed attention block with spectrum attention and channel attention.
 
 ## Usage
 
 Download the pretrained model at [Github Release](https://github.com/Zeqiang-Lai/MAN/releases/latest).
 
-- Use our model. 
+- Training and Testing with [HSIR](https://github.com/bit-isp/HSIR).
+
+```shell
+python -m hsirun.test -a mans.man -r ckpt/man_gaussian.pth -t icvl_512_30 icvl_512_50
+python -m hsirun.train -a mans.man 
+```
+
+- Use our model.
 
 ```python
 import torch
@@ -22,12 +35,40 @@ x = torch.randn(4,1,31,64,64)
 y = net(x)
 ```
 
-- Training and Testing with [HSIR](https://github.com/bit-isp/HSIR).
+- Use our components.
 
-```shell
-python -m hsirun.test -a mans.man -r ckpt/man_gaussian.pth -t icvl_512_30 icvl_512_50
-python -m hsirun.train -a mans.man 
+```python
+import torch
+from mans import (
+    MAB, BiMAB,
+    AdaptiveSkipConnection, SimplifiedChannelAttention,
+)
+
+x = torch.randn(4,16,31,64,64)
+block = MAB(16) # or BiMAB(16)
+out = block(x) # [4,16,31,64,64]
+
+y = torch.randn(4,16,31,64,64)
+block = AdaptiveSkipConnection(16)
+out = block(x, y) # [4,16,31,64,64]
+
+block = SimplifiedChannelAttention(16)
+out = block(x) # [4,16,31,64,64]
 ```
+
+## Performance
+
+<details>
+<summary>Gaussian denoising</summary>
+<img src="asset/gaussian.png" height="190px"/> 
+</details>
+
+<details>
+<summary>Complex denoising</summary>
+<img src="asset/complex.png" height="190px"/> 
+
+</details>
+
 
 ## Citations
 
