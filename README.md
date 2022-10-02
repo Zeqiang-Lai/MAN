@@ -21,7 +21,8 @@ Download the pretrained model at [Github Release](https://github.com/Zeqiang-Lai
 
 ```shell
 python -m hsirun.test -a mans.man -r ckpt/man_gaussian.pth -t icvl_512_30 icvl_512_50
-python -m hsirun.train -a mans.man 
+python -m hsirun.train -a mans.man -s schedule.gaussian
+python -m hsirun.train -a mans.man -s schedule.complex -r checkpoints/mans.man/model_latest.pth
 ```
 
 - Use our model.
