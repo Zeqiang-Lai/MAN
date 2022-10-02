@@ -1,6 +1,6 @@
 # Main Results
 
-- Download the predicted images (simulated RGB and Gray of 20 th channel) from [Github Release]().
+- Download the predicted images (simulated RGB and Gray of 20 th channel) from [Github Release](https://github.com/Zeqiang-Lai/MAN/releases/latest).
 
 - Run by yourself,
 
