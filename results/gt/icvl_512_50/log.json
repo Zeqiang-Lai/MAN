@@ -1,0 +1,310 @@
+{
+    "avg": {
+        "MPSNR": Infinity,
+        "MSSIM": 1.0,
+        "SAM": 6.31393833373295e-05,
+        "Time": 0.0
+    },
+    "detail": {
+        "gavyam_0823-0933": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 9.171640704153106e-05,
+            "Time": 0.0
+        },
+        "objects_0924-1557": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 9.881389269139618e-05,
+            "Time": 0.0
+        },
+        "lehavim_0910-1600": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 7.716713298577815e-05,
+            "Time": 0.0
+        },
+        "Lehavim_0910-1717": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 2.5600313165341504e-05,
+            "Time": 0.0
+        },
+        "gavyam_0823-0944": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 8.566640462959185e-05,
+            "Time": 0.0
+        },
+        "nachal_0823-1222": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 4.4520231313072145e-05,
+            "Time": 0.0
+        },
+        "lehavim_0910-1610": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 5.270008114166558e-05,
+            "Time": 0.0
+        },
+        "objects_0924-1623": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 4.631881893146783e-05,
+            "Time": 0.0
+        },
+        "objects_0924-1650": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 6.226667028386146e-05,
+            "Time": 0.0
+        },
+        "nachal_0823-1214": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 9.93444919004105e-05,
+            "Time": 0.0
+        },
+        "Labtest_0910-1504": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 1.3825220776197966e-05,
+            "Time": 0.0
+        },
+        "objects_0924-1648": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 7.119808287825435e-05,
+            "Time": 0.0
+        },
+        "rmt_0328-1249-1": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 1.427587449143175e-05,
+            "Time": 0.0
+        },
+        "Labtest_0910-1509": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 1.3044447769061662e-05,
+            "Time": 0.0
+        },
+        "objects_0924-1611": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 9.452146332478151e-05,
+            "Time": 0.0
+        },
+        "nachal_0823-1127": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 8.62450833665207e-05,
+            "Time": 0.0
+        },
+        "IDS_COLORCHECK_1020-1215-1": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 4.797959991265088e-05,
+            "Time": 0.0
+        },
+        "Labtest_0910-1513": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 3.5031349398195744e-05,
+            "Time": 0.0
+        },
+        "selfie_0822-0906": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 8.715072908671573e-05,
+            "Time": 0.0
+        },
+        "nachal_0823-1118": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 5.7803648815024644e-05,
+            "Time": 0.0
+        },
+        "objects_0924-1617": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 9.471278463024646e-05,
+            "Time": 0.0
+        },
+        "ulm_0328-1118": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 8.053961209952831e-05,
+            "Time": 0.0
+        },
+        "Lehavim_0910-1716": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 1.1838034879474435e-05,
+            "Time": 0.0
+        },
+        "Lehavim_0910-1635": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 9.090817911783233e-05,
+            "Time": 0.0
+        },
+        "objects_0924-1607": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 8.626948692835867e-05,
+            "Time": 0.0
+        },
+        "objects_0924-1625": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 9.513901022728533e-05,
+            "Time": 0.0
+        },
+        "nachal_0823-1144": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 6.42230806988664e-05,
+            "Time": 0.0
+        },
+        "nachal_0823-1121": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 8.265147334896028e-05,
+            "Time": 0.0
+        },
+        "gavyam_0823-0930": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 4.3585019739111885e-05,
+            "Time": 0.0
+        },
+        "objects_0924-1628": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 4.325474219513126e-05,
+            "Time": 0.0
+        },
+        "rmt_0328-1241-1": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 9.912480891216546e-05,
+            "Time": 0.0
+        },
+        "objects_0924-1641": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 6.56390402582474e-05,
+            "Time": 0.0
+        },
+        "nachal_0823-1223": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 6.450210639741272e-05,
+            "Time": 0.0
+        },
+        "objects_0924-1614": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 9.380544361192733e-05,
+            "Time": 0.0
+        },
+        "nachal_0823-1047": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 9.816576493903995e-05,
+            "Time": 0.0
+        },
+        "negev_0823-1003": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 9.427662735106423e-05,
+            "Time": 0.0
+        },
+        "Lehavim_0910-1626": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 6.576578016392887e-05,
+            "Time": 0.0
+        },
+        "nachal_0823-1149": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 4.396418444230221e-05,
+            "Time": 0.0
+        },
+        "objects_0924-1602": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 8.820235234452412e-05,
+            "Time": 0.0
+        },
+        "nachal_0823-1217": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 5.670360769727267e-05,
+            "Time": 0.0
+        },
+        "CC_40D_2_1103-0917": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 8.861960668582469e-05,
+            "Time": 0.0
+        },
+        "Master2900k": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 5.143156158737838e-06,
+            "Time": 0.0
+        },
+        "objects_0924-1550": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 9.856386168394238e-05,
+            "Time": 0.0
+        },
+        "objects_0924-1632": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 4.957471901434474e-05,
+            "Time": 0.0
+        },
+        "Master5000K_2900K": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 1.4264051060308702e-05,
+            "Time": 0.0
+        },
+        "lehavim_0910-1602": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 5.600125587079674e-05,
+            "Time": 0.0
+        },
+        "objects_0924-1637": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 9.200430940836668e-05,
+            "Time": 0.0
+        },
+        "Lehavim_0910-1636": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 1.674713166721631e-05,
+            "Time": 0.0
+        },
+        "Master5000K": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 4.389459263620665e-06,
+            "Time": 0.0
+        },
+        "bulb_0822-0909": {
+            "MPSNR": Infinity,
+            "MSSIM": 1.0,
+            "SAM": 6.320053216768429e-05,
+            "Time": 0.0
+        }
+    }
+}

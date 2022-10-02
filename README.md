@@ -4,7 +4,7 @@
 
 PyTorch Implementation of [Mixed Attention Network for Hyperspectral Image Denoising]()
 
-<img src="asset/arch.png" height="190px"/> 
+<img src="asset/arch.png" width="550px"/> 
 
 <br/>
 
@@ -17,15 +17,16 @@ PyTorch Implementation of [Mixed Attention Network for Hyperspectral Image Denoi
 
 Download the pretrained model at [Github Release](https://github.com/Zeqiang-Lai/MAN/releases/latest).
 
-- Training and Testing with [HSIR](https://github.com/bit-isp/HSIR).
+- Training, testing, and visualize results with [HSIR](https://github.com/bit-isp/HSIR).
 
 ```shell
 python -m hsirun.test -a mans.man -r ckpt/man_gaussian.pth -t icvl_512_30 icvl_512_50
 python -m hsirun.train -a mans.man -s schedule.gaussian
 python -m hsirun.train -a mans.man -s schedule.complex -r checkpoints/mans.man/model_latest.pth
+python -m hsiboard.app --logdir results
 ```
 
-- Use our model.
+- Using our model.
 
 ```python
 import torch
@@ -36,7 +37,7 @@ x = torch.randn(4,1,31,64,64)
 y = net(x)
 ```
 
-- Use our components.
+- Using our components.
 
 ```python
 import torch
@@ -61,12 +62,12 @@ out = block(x) # [4,16,31,64,64]
 
 <details>
 <summary>Gaussian denoising</summary>
-<img src="asset/gaussian.png" height="190px"/> 
+<img src="asset/gaussian.png" width="800px"/> 
 </details>
 
 <details>
 <summary>Complex denoising</summary>
-<img src="asset/complex.png" height="190px"/> 
+<img src="asset/complex.png" width="800px"/> 
 
 </details>
 

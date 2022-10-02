@@ -1,0 +1,3 @@
+2022-10-01-11:09:19
+python /media/exthdd/laizeqiang/lzq/projects/denoise_hsi/HSIR/hsirun/test.py -a mans.man_deep -r ckpt/man_b_complex.pth -t icvl_512_noniid icvl_512_stripe icvl_512_deadline icvl_512_impulse icvl_512_mixture --force-run
+Namespace(arch='mans.man_deep', bandwise=False, basedir='data', clamp=False, force_run=True, key_path='net', logdir='results', name=None, resume='ckpt/man_b_complex.pth', save_img=False, testset=['icvl_512_noniid', 'icvl_512_stripe', 'icvl_512_deadline', 'icvl_512_impulse', 'icvl_512_mixture'], use_conv2d=False)

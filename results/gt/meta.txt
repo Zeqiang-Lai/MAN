@@ -1,0 +1,3 @@
+2022-10-01-11:34:19
+python /media/exthdd/laizeqiang/lzq/projects/denoise_hsi/HSIR/hsirun/test.py -a gt -t icvl_512_impulse icvl_512_mixture
+Namespace(arch='gt', bandwise=False, basedir='data', clamp=False, force_run=False, key_path='net', logdir='results', name=None, resume=None, save_img=False, testset=['icvl_512_impulse', 'icvl_512_mixture'], use_conv2d=False)
