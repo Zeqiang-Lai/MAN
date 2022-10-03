@@ -5,8 +5,8 @@ gaussian = TrainSchedule(
     base_lr=1e-3,
     lr_schedule={
         0: 1e-3,
-        2: 5e-4,
-        15: 1e-4,
+        1: 5e-4,
+        20: 1e-4,
         30: 1e-3,
         45: 1e-4,
         55: 5e-5,
