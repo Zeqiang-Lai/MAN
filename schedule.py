@@ -7,7 +7,7 @@ gaussian = TrainSchedule(
         0: 1e-3,
         1: 5e-4,
         20: 1e-4,
-        30: 1e-3,
+        30: 5e-4,
         45: 1e-4,
         55: 5e-5,
         60: 1e-5,
@@ -18,9 +18,9 @@ gaussian = TrainSchedule(
 
 complex = TrainSchedule(
     max_epochs=110,
-    base_lr=1e-4,
+    base_lr=5e-4,
     lr_schedule={
-        80: 1e-4,
+        80: 5e-4,
         85: 5e-5,
         90: 1e-5,
         95: 5e-6,
