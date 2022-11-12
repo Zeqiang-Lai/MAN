@@ -159,15 +159,15 @@ class MAB(nn.Module):
 """
 
 
-def PlainConv(in_ch, out_ch, bias=False):
+def PlainMAB(in_ch, out_ch, bias=False):
     return MAB(nn.Conv3d(in_ch, out_ch, 3, 1, 1, bias=bias), out_ch)
 
 
-def DownConv(in_ch, out_ch, bias=False):
+def DownMAB(in_ch, out_ch, bias=False):
     return MAB(nn.Conv3d(in_ch, out_ch, 3, (1, 2, 2), 1, bias=bias), out_ch)
 
 
-def UpConv(in_ch, out_ch, bias=False):
+def UpMAB(in_ch, out_ch, bias=False):
     return MAB(UpsampleConv3d(in_ch, out_ch, 3, 1, 1, bias=bias, upsample=(1, 2, 2)), out_ch)
 
 
@@ -177,9 +177,9 @@ class Encoder(nn.Module):
         self.layers = nn.ModuleList()
         for i in range(num_half_layer):
             if i not in sample_idx:
-                encoder_layer = PlainConv(channels, channels)
+                encoder_layer = PlainMAB(channels, channels)
             else:
-                encoder_layer = DownConv(channels, 2 * channels)
+                encoder_layer = DownMAB(channels, 2 * channels)
                 channels *= 2
             self.layers.append(encoder_layer)
 
@@ -211,9 +211,9 @@ class Decoder(nn.Module):
 
         for i in reversed(range(num_half_layer)):
             if i not in sample_idx:
-                decoder_layer = PlainConv(channels, channels)
+                decoder_layer = PlainMAB(channels, channels)
             else:
-                decoder_layer = UpConv(channels, channels // 2)
+                decoder_layer = UpMAB(channels, channels // 2)
                 channels //= 2
             self.layers.append(decoder_layer)
 
@@ -234,7 +234,7 @@ class Decoder(nn.Module):
 class MAN(nn.Module):
     def __init__(self, in_channels, channels, num_half_layer, sample_idx, Fusion=None):
         super().__init__()
-        self.head = PlainConv(in_channels, channels)
+        self.head = PlainMAB(in_channels, channels)
         self.encoder = Encoder(channels, num_half_layer, sample_idx)
         self.decoder = Decoder(channels * (2**len(sample_idx)), num_half_layer, sample_idx, Fusion=Fusion)
         self.tail = nn.Conv3d(channels, in_channels, 3, 1, 1, bias=True)
@@ -255,7 +255,7 @@ class MAN(nn.Module):
 class MAN_T(MAN):
     def __init__(self, in_channels, channels, num_half_layer, sample_idx, Fusion=None):
         super().__init__(in_channels, channels, num_half_layer, sample_idx, Fusion)
-        self.tail = PlainConv(channels, in_channels, bias=True)
+        self.tail = PlainMAB(channels, in_channels, bias=True)
 
 
 """ Models
