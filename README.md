@@ -4,14 +4,39 @@
 
 PyTorch Implementation of [Mixed Attention Network for Hyperspectral Image Denoising]()
 
-<img src="asset/arch.png" width="550px"/> 
-
-<br/>
-
 🌟 **Hightlights**
 
-- We propose a new adaptive skip connection which weights en-decoder features elementwise.
-- We propose a lightweight mixed attention block with spectrum attention and channel attention.
+- We propose a "*Mixed Attention Network*" for hyperspectral image denoising.
+- We introduce a "*Multi-Head Spectral Recurrent Attention*" block to aggregate the *inter-spectral* features.
+- We introduce a "*Progressive Channel Attention block*" for integrating the *intra-spectral* features.
+- We introduce an "*Attentive Skip Connection*" to strengthen the important features from *low-* and *high-level*.
+
+| <sub><sup>Overall Architecture</sup></sub> | 
+| ------------------------------------------ | 
+| <img src="asset/arch2.png" width="350px"/> |
+
+<details>
+<summary>Illustrations of each network components.</summary>
+<br/>
+
+| <sub><sup>Progressive Spectral Channel Attention</sup></sub>  | <sub><sup>Attentive Skip Connection</sup></sub>           |
+| ----------------------------------------- | ---------------------------------------- |
+| <img src="asset/psca.png" width="350px"/> | <img src="asset/asc.png" width="300px"/> |
+
+<table >
+    <thead>
+        <tr>
+			<th> <sub><sup>Multi-Head Recurrent Spectral Attention</sup></sub> </th>
+		</tr>
+    </thead>
+	<tbody>
+		<tr>
+			<td> <img src="asset/mhrsa.png" width="678px"/> </td>
+		</tr>
+	</tbody>
+</table>
+</details>
+
 
 ## Usage
 

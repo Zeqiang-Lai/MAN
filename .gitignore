@@ -3,3 +3,5 @@ ckpt
 ckpt3
 data
 *.png
+
+.DS_Store
