@@ -4,7 +4,13 @@
 
 PyTorch Implementation of [Mixed Attention Network for Hyperspectral Image Denoising]()
 
-<img src="asset/arch.png" width="550px"/> 
+| Overall Architecture                       | Multi-Head Recurrent Spectral Attention    |
+| ------------------------------------------ | ------------------------------------------ |
+| <img src="asset/arch2.png" width="200px"/> | <img src="asset/mhrsa.png" width="550px"/> |
+
+| Progressive Spectral Channel Attention    | Attentive Skip Connection                |
+| ----------------------------------------- | ---------------------------------------- |
+| <img src="asset/psca.png" width="550px"/> | <img src="asset/asc.png" width="550px"/> |
 
 <br/>
 
