@@ -2,7 +2,13 @@
 
 # MAN
 
-PyTorch Implementation of [Mixed Attention Network for Hyperspectral Image Denoising]()
+Official PyTorch Implementation of [Mixed Attention Network for Hyperspectral Image Denoising]().
+
+*Zeqiang Lai, Ying Fu*.
+
+| <sub><sup>Overall Architecture</sup></sub> | 
+| ------------------------------------------ | 
+| <img src="asset/arch2.png" width="350px"/> |
 
 🌟 **Hightlights**
 
@@ -11,9 +17,6 @@ PyTorch Implementation of [Mixed Attention Network for Hyperspectral Image Denoi
 - We introduce a "*Progressive Channel Attention block*" for integrating the *intra-spectral* features.
 - We introduce an "*Attentive Skip Connection*" to strengthen the important features from *low-* and *high-level*.
 
-| <sub><sup>Overall Architecture</sup></sub> | 
-| ------------------------------------------ | 
-| <img src="asset/arch2.png" width="350px"/> |
 
 <details>
 <summary>Illustrations of each network components.</summary>
