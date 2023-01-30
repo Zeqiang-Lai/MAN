@@ -2,7 +2,7 @@
 
 # MAN
 
-Official PyTorch Implementation of [Mixed Attention Network for Hyperspectral Image Denoising]().
+Official PyTorch Implementation of [Mixed Attention Network for Hyperspectral Image Denoising](http://arxiv.org/abs/2301.11525).
 
 *Zeqiang Lai, Ying Fu*.
 
