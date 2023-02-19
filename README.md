@@ -88,13 +88,27 @@ out = block(x) # [4,16,31,64,64]
 
 ## Performance
 
+**MAN v2**
+
 <details>
-<summary>Gaussian denoising</summary>
+<summary>Gaussian denoising on ICVL</summary>
+<img src="asset/gaussian_v2.png" width="800px"/> 
+</details>
+
+<details>
+<summary>Complex denoising  on ICVL</summary>
+<img src="asset/complex_v2.png" width="800px"/> 
+
+</details>
+
+**MAN**
+<details>
+<summary>Gaussian denoising on ICVL</summary>
 <img src="asset/gaussian.png" width="800px"/> 
 </details>
 
 <details>
-<summary>Complex denoising</summary>
+<summary>Complex denoising  on ICVL</summary>
 <img src="asset/complex.png" width="800px"/> 
 
 </details>
@@ -103,9 +117,10 @@ out = block(x) # [4,16,31,64,64]
 ## Citations
 
 ```bibtex
-@misc{lai_man2022,
-    title={Mixed Attention Network for Hyperspectral Image Denoising}, 
-    author={Zeqiang Lai, Ying Fu},
-    year={2022},
+@article{lai2023mixed,
+  title={Mixed Attention Network for Hyperspectral Image Denoising},
+  author={Lai, Zeqiang and Fu, Ying},
+  journal={arXiv preprint arXiv:2301.11525},
+  year={2023}
 }
 ```
