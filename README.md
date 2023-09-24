@@ -40,6 +40,9 @@ Official PyTorch Implementation of [Mixed Attention Network for Hyperspectral Im
 </table>
 </details>
 
+## News
+
+- Checkout our new work [HSDT](https://github.com/Zeqiang-Lai/HSDT), a superior HSI denoising transformer.
 
 ## Usage
 
