@@ -125,4 +125,10 @@ out = block(x) # [4,16,31,64,64]
   journal={arXiv preprint arXiv:2301.11525},
   year={2023}
 }
+@inproceedings{lai2023hsdt,
+  author = {Lai, Zeqiang and Chenggang, Yan and Fu, Ying},
+  title = {Hybrid Spectral Denoising Transformer with Guided Attention},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  year = {2023},
+}
 ```
